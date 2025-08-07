@@ -46,7 +46,7 @@ This application showcases mastery in DOM manipulation, data structuring, user i
 > *“Your daily planner in a pixel-perfect package.”*
 
 ![To-Do Icon Preview](https://cdn-icons-png.flaticon.com/512/760/760618.png)
-*(You can update this image to one that fits your brand/style better.)*
+
 
 ---
 
