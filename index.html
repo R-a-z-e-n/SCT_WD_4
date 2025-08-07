@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📋 To-Do List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <h1>📝 My To-Do List</h1>
+
+    <div class="task-input">
+      <input type="text" id="task-title" placeholder="Enter task..." />
+      <input type="datetime-local" id="task-datetime" />
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <ul id="task-list">
+      <!-- Tasks will appear here -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

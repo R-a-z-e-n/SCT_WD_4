@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #7f9ebe;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  margin: 0;
+}
+
+.app-container {
+  background: #f56060;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.task-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.task-item.completed {
+  background: #d4edda;
+  text-decoration: line-through;
+}
+
+.task-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.task-controls button {
+  font-size: 12px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  background: #007bff;
+}
+
+.task-controls button.complete-btn {
+  background: #28a745;
+}
+
+.task-controls button.edit-btn {
+  background: #ffc107;
+}
+
+.task-controls button.delete-btn {
+  background: #dc3545;
+}
+
+.task-time {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
